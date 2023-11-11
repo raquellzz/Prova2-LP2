@@ -1,20 +1,21 @@
 package br.ufrn.imd.dao;
 
 import java.util.ArrayList;
+
 import br.ufrn.imd.model.Pessoa;
 
 public class PessoaDAO {
     ArrayList<Pessoa> pessoas = new ArrayList<Pessoa>();
 
-    public void cadastrarPessoa(Pessoa pessoa) {
+    public void cadastraPessoa(Pessoa pessoa) {
         pessoas.add(pessoa);
     }
 
-    public void removerPessoa(Pessoa pessoa) {
+    public void removePessoa(Pessoa pessoa) {
         pessoas.remove(pessoa);
     }
 
-    public void listarPessoas() {
+    public void listaPessoas() {
         for (Pessoa pessoa : pessoas) {
             System.out.println(pessoa.getNome());
         }
@@ -55,5 +56,6 @@ public class PessoaDAO {
         System.out.println("Nome da pessoa que pagará o maior imposto: " + nomeMaiorImposto);
         System.out.println("Nome do beneficiado com o maior valor de seguro: " + nomeMaiorSeguro);
     }
+
 }
 

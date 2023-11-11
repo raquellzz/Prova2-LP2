@@ -50,12 +50,12 @@ public class ContaCorrente implements ITributavel {
     }
 
     public boolean transferir(double valor, ContaCorrente cc) {
-        if (saldo >= valor) {
-            saldo -= valor;
-            cc.depositar(valor);
-            return true;
-        } else
+        if (saldo < valor) {
             return false;
+        } 
+        saldo -= valor;
+        cc.depositar(valor);
+        return true;    
     }
 
     @Override
