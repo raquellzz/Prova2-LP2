@@ -5,7 +5,27 @@ import br.ufrn.imd.model.ContaCorrente;
 import br.ufrn.imd.model.Pessoa;
 import br.ufrn.imd.model.SeguroVida;
 
+/**
+ * Esta classe é responsável por instanciar e chamar os métodos das classes do código.
+ * 
+ * A classe ImpostoRendaPF possui o método main que é responsável por instanciar e chamar os métodos das classes do código
+ * 
+ * @author Raquel, Artur
+ * @version 1.0
+ * @see PessoaDAO
+ * @see ContaCorrente
+ * @see SeguroVida
+ * @see Pessoa
+ * 
+ */
+
+
 public class ImpostoRendaPF {
+    /**
+     * Este método é responsável por instanciar e chamar os métodos das classes do código.
+     * 
+     * @param args
+     */
     public static void main(String[] args) {
         PessoaDAO daoP = new PessoaDAO();
         ContaCorrente cc1 = new ContaCorrente();
