@@ -1,4 +1,5 @@
 
+
 /**
  * Esta classe é Main do projeto.
  * 
@@ -10,7 +11,7 @@
  * 
  */
 
- import br.ufrn.imd.view.ImpostoRendaPF;
+import br.ufrn.imd.view.*;
 
 public class Main {
     public static void main(String[] args) {
