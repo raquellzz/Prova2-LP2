@@ -1,4 +1,3 @@
-import br.ufrn.imd.view.ImpostoRendaPF;
 
 /**
  * Esta classe é Main do projeto.
@@ -10,6 +9,9 @@ import br.ufrn.imd.view.ImpostoRendaPF;
  * @version 1.0
  * 
  */
+
+ import br.ufrn.imd.view.ImpostoRendaPF;
+
 public class Main {
     public static void main(String[] args) {
         ImpostoRendaPF.main(args);
